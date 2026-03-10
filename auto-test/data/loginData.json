@@ -1,0 +1,20 @@
+[
+  {
+    "case": "Sai mật khẩu",
+    "user": "tomsmith",
+    "pass": "wrong_pass",
+    "expectedMessage": "Your password is invalid!"
+  },
+  {
+    "case": "Sai username",
+    "user": "nam_le",
+    "pass": "SuperSecretPassword!",
+    "expectedMessage": "Your username is invalid!"
+  },
+  {
+    "case": "Để trống dữ liệu",
+    "user": "",
+    "pass": "",
+    "expectedMessage": "Your username is invalid!"
+  }
+]
